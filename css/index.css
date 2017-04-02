@@ -1,5 +1,5 @@
 body{
-  background-image: url(../images/ub1.jpg);
+  background: url(../images/ub1.jpg) no-repeat ;
   background-size: cover;
   line-height: 1.2em;
   margin: 0;
