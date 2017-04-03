@@ -72,7 +72,7 @@ header{
   text-shadow:  2px 2px 1px #333366;
 }
 
-.footer{
+footer{
   margin-bottom: 10px ;
   padding:10px;
 }
@@ -106,10 +106,10 @@ footer h3{
   transform: scale(1.5,1.5);
   opacity: .6
 }
-.footer p{
+footer p{
   text-shadow: 2px 2px 1px #333366;
   padding: 2px;
-	text-align: center;
-	font-size: 130%;
-	color: black;
+  text-align: center;
+  font-size: 130%;
+  color: black;
 }
