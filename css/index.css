@@ -1,36 +1,29 @@
 body{
-  background: url(../images/ub1.jpg) no-repeat ;
+  background: url("../images/ub1.jpg") no-repeat ;
   background-size: cover;
   line-height: 1.2em;
   margin: 0;
 }
 .page{ margin: 20px;
 }
-header{
-  border: 0.5px black solid;
-  display: flex;
-  flex-direction: row;
- }
+
 .nav ul{
   display: flex;
   flex-direction: row;
-  margin:0;
-  padding:10px;
-
-}
-.nav{
-  padding: 1%;
+  margin:10px;
   margin-left:20%;
+  margin-right:20%;
+  justify-content: space-between;
 
 }
+
 .nav ul li{
   background-color: #333366;
   display:flex;
+  display:block;
   flex-direction: row;
-  padding:30px;
-  text-align: center;
   border-radius: 20px;
-  margin-right: 50%;
+  margin-right: 20%;
   text-decoration: none;
 }
 .nav ul li:hover{
@@ -42,10 +35,12 @@ header{
   text-align: center;
   justify-content:space-around;
   color:white;
+  margin:5px 10px 5px 10px;
+  font-size:1.5em;
 }
 .content{
 	margin: 50px 0;
-	
+
 }
 .content h1{
   font-family: 'Sacramento', cursive;
@@ -75,20 +70,24 @@ header{
 footer{
   margin-bottom: 10px ;
   padding:10px;
+
+
 }
 footer h3{
   text-decoration: underline;
   text-shadow: 2px 2px 1px #333366;
+
 }
 
 .footerbox {
   padding: 10px;
   text-align: left;
-  margin-left: auto;
+  margin: auto;
+  display:block;
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  
+
 }
 
 .footerbox a{
@@ -109,7 +108,7 @@ footer h3{
 footer p{
   text-shadow: 2px 2px 1px #333366;
   padding: 2px;
-  text-align: center;
-  font-size: 130%;
-  color: black;
+	text-align: center;
+	font-size: 130%;
+	color: black;
 }
