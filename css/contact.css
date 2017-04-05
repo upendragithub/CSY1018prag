@@ -1,95 +1,13 @@
-body{
-  background-image: url(../images/ub1.jpg);
-  background-size: cover;
-  line-height: 1.2em;
-  margin: 0;
-}
-.page{ margin: 20px;
-}
-.nav ul{
-  display: flex;
-  flex-direction: row;
-  margin:10px;
-  margin-left:20%;
-  margin-right:20%;
-  justify-content: space-between;
 
-}
-
-.nav ul li{
-  background-color: #333366;
-  display:flex;
-  display:block;
-  flex-direction: row;
-  border-radius: 20px;
-  margin-right: 20%;
-  text-decoration: none;
-}
-.nav ul li:hover{
-  background-color:#2a5cf7;
-}
-.nav ul li a{
-  color: black;
-  text-decoration: none;
-  text-align: center;
-  justify-content:space-around;
-  color:white;
-  margin:10px 10px 10px 10px;
-  margin-right:10px;
-  margin-left:10px;
-  font-size:1.5em;
-}
 .content h1{
+  /*this rule is for the h1 part of content */
   text-align: left;
-  
   text-shadow: 2px 2px 1px #333366;
 }
 .content p{
+  /*these rules are for the  properties of content paragraph */
   font-size: 120%;
-  
   font-family: monospace;
   text-shadow:  2px 2px 1px #333366;
 
-}
-.footer{
-  
-  margin-bottom: 10px ;
-  padding:10px;
-}
-footer h3{
-  text-decoration: underline;
-  text-shadow: 2px 2px 1px #333366;
-}
-
-.footerbox {
-  padding: 10px;
-  text-align: left;
-  margin-left: auto;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  
-}
-
-.footerbox a{
-  display: flex;
-  flex-direction: row;
-  padding-right: 10px;
-}
-
-.footerbox a img{
-  width:30px;
-  height:30px;
-
-}
-.footerbox a img:hover{
-  transform: scale(1.5,1.5);
-  opacity: .6
-}
-.footer p{
-  text-shadow: 2px 2px 1px #333366;
-  padding: 2px;
-	text-align: center;
-	font-size: 130%;
-	color: black;
 }
