@@ -21,3 +21,18 @@
   height:200px;
   border-radius: 100%;
 }
+.flex-container{
+  /*this describes the properties about flexxontainer div*/
+  display: flex;
+  margin: 10px;
+  height: 400px;
+  width: auto;
+
+}
+
+.flex-item{
+  /*this is the properties for flex items*/
+  margin: 10px;
+  height:100px;
+  width:auto;
+}
