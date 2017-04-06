@@ -49,7 +49,7 @@ body{
 
 footer{
   /*this is style property for footer part*/
-  
+
   padding:10px;
 
 }
@@ -91,5 +91,8 @@ footer p{
   /*this is for making nav responsive on any media*/
   .nav ul{
     flex-direction: column;
+  }
+  footer{
+    flex-direction: row-reverse;
   }
 }
