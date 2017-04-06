@@ -1,3 +1,5 @@
+/*<!--Upendra Bagale
+  UN ID -16418515-->*/
 body{
   /*these are the properties for body tag*/
   background-image: linear-gradient(#43C6AC ,#191654 );
@@ -49,36 +51,39 @@ body{
 
 footer{
   /*this is style property for footer part*/
-
   padding:10px;
 
 }
 
-.footerbox{
-  /*footerbox icons are given diffrent styles through this rule*/
+.mainfooter{
+  /*mainfooter icons is aligned through this rule*/
   text-align: center;
 }
 
-.footerbox a{
-  /*this is properties for link of those icons on footerbox*/
+.secfooter a{
+  /*this is properties for link of those icons on secfooter*/
   padding-right:5px;
   text-decoration:none;
-
 }
 
-.footerbox a img{
+.secfooter{
+  /*this expalin about the align rule*/
+  text-align: center;
+}
+
+.secfooter a img{
   /*this properties are for img of those linked icons*/
   width:30px;
   height:30px;
 
 }
-.footerbox a img:hover{
+.secfooter a img:hover{
   /*this properties are for after pointed effect on img of icons*/
   transform: scale(1.5,1.5);
-  opacity: 0.6
+  opacity: 0.6;
 }
-footer p{
-  /*these rules are for the paragraph of footer*/
+.mainfooter p{
+  /*these rules are for the paragraph of mainfooter*/
   text-shadow: 2px 2px 1px #333366;
   padding: 2px;
 	text-align: center;
@@ -92,7 +97,5 @@ footer p{
   .nav ul{
     flex-direction: column;
   }
-  footer{
-    flex-direction: row-reverse;
-  }
+
 }

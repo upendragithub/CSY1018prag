@@ -1,26 +1,30 @@
-
-.content{
-/*this is the rule for whole content part*/
-  margin: 50px 0;
-
-}
-.content h1{
+/*<!--Upendra Bagale
+  UN ID -16418515-->*/
+.mybio h1{
   /*this rule is for the h1 part of content */
   text-align: center;
   text-shadow: 2px 2px 1px #333366;
 }
-.img1 img{
-  /*this img1 img rules gives properties about images*/
-  padding: 0 6px;
-  float: right;
-  border-radius: 8px;
-  width:400px;
-  height:600px;
+
+.contentofbio .mybio .img1 img{
+  /*this explains about the properties of image on biography */
+  height: 275px;
+  width:350px;
+  border-radius: 100%;
+  border: 1px solid #333366 ;
 }
-.content  p{
+
+.mybio{
+  /*this expalins about align of class mybio h1*/
+  text-align: center;
+}
+
+.contentofbio  .upendratext p{
   /*these rules are for the  properties of content paragraph */
  line-height: 1.5em;
  text-align: left;
  font-size: 1.8em;
  font-family: 'Just Another Hand', cursive;
+ text-align: center;
+ letter-spacing: 1.5px;
 }

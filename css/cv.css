@@ -1,6 +1,7 @@
-
+/*<!--Upendra Bagale
+  UN ID -16418515-->*/
 .content1{
-  /*these rules are for the  properties content */
+  /*this is the property of content1 section*/
   font-family:'Leckerli One', cursive;
   text-align: center;
 }
@@ -14,27 +15,31 @@
   text-shadow:  2px 2px 1px #333366;
 
 }
-.content img{
+.content1 img{
 /*this content img rules gives properties about images*/
   text-align: center;
   width:200px;
   height:200px;
   border-radius: 100%;
 }
+
 .flex-container{
   /*this describes the properties about flexxontainer div*/
   display: flex;
   margin: 10px;
   height: 500px;
-  width: auto;
-  border: 2px solid black;
+}
 
+@media (max-width:1000px){
+  /*this explains about responsive properties for mobiles tablets*/
+  .flex-container{
+  flex-direction: column;
+  height:1000px;
+  }
 }
 
 .flex-item{
   /*this is the properties for flex items*/
-  margin: 10px;
-  height:400px;
-  width:auto;
   border: 1px solid black;
+  height: 350px;
 }

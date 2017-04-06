@@ -1,13 +1,17 @@
+/*<!--Upendra Bagale
+  UN ID -16418515-->*/
 .content{
 /*this is the rule for whole content part*/
-
-  margin: 50px 0;
+  margin: auto;
+  margin-bottom: 200px;
 }
 .content h1{
 	/*this rule is for the h1 part of content */
   font-family: 'Sacramento', cursive;
   text-align: center;
   text-shadow: 2px 2px 1px #333366;
+  margin-bottom: 70px;
+  margin-top: 70px;
 }
 
 .content img{
@@ -32,4 +36,5 @@
   text-align: center;
   font-family: 'Sacramento', cursive;
   text-shadow:  2px 2px 1px #333366;
+
 }

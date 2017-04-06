@@ -1,4 +1,5 @@
-
+/*<!--Upendra Bagale
+  UN ID -16418515-->*/
 .content h1{
   /*this rule is for the h1 part of content */
   text-align: left;
@@ -16,15 +17,22 @@ iframe{
   height: 300px;
   border-radius: 5%;
 }
+
 .flex-container1{
   /*this describes the properties about flexxontainer1 div*/
   display: flex;
   margin: 10px;
   height: 400px;
   width: auto;
-
-
 }
+
+@media (max-width:1000px){
+  /*this explains about responsive properties for mobiles tablets*/
+.flex-container1{
+ flex-direction: column;
+}
+}
+
 .flex-item2 h2{
   /*this is the property for h2 text on flex-item2*/
   font-size: 2em;
