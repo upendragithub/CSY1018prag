@@ -6,8 +6,36 @@
 }
 .content p{
   /*these rules are for the  properties of content paragraph */
-  font-size: 120%;
-  font-family: monospace;
-  text-shadow:  2px 2px 1px #333366;
+  font-size: 1.2em;
+  font-family: 'Satisfy', cursive;
+  text-shadow:  1px 1px 1px #333366;
+}
+iframe{
+  /*this is properties for google map*/
+  width: 400px;
+  height: 300px;
+  border-radius: 5%;
+}
+.flex-container1{
+  /*this describes the properties about flexxontainer1 div*/
+  display: flex;
+  margin: 10px;
+  height: 400px;
+  width: auto;
 
+
+}
+.flex-item2 h2{
+  /*this is the property for h2 text on flex-item2*/
+  font-size: 2em;
+  font-family: 'Satisfy', cursive;
+  text-shadow:  1px 1px 1px #333366;
+  text-align: center;
+}
+
+.flex-item2{
+  /*this is the properties for flex items2*/
+  margin: 10px;
+  height:300px;
+  width:auto;
 }

@@ -25,14 +25,16 @@
   /*this describes the properties about flexxontainer div*/
   display: flex;
   margin: 10px;
-  height: 400px;
+  height: 500px;
   width: auto;
+  border: 2px solid black;
 
 }
 
 .flex-item{
   /*this is the properties for flex items*/
   margin: 10px;
-  height:100px;
+  height:400px;
   width:auto;
+  border: 1px solid black;
 }

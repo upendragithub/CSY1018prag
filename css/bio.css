@@ -21,7 +21,7 @@
 .content  p{
   /*these rules are for the  properties of content paragraph */
  line-height: 1.5em;
-  text-align: left;
-  font-size: 180%;
-  font-family: 'Just Another Hand', cursive;
+ text-align: left;
+ font-size: 1.8em;
+ font-family: 'Just Another Hand', cursive;
 }

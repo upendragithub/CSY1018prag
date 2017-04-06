@@ -1,7 +1,6 @@
 body{
   /*these are the properties for body tag*/
-  background: url("../images/ub1.jpg") no-repeat ;
-  background-size: cover;
+  background-image: linear-gradient(#43C6AC ,#191654 );
   line-height: 1.2em;
   margin: 0;
 }
@@ -23,7 +22,7 @@ body{
 
 .nav ul li{
   /*these rules gives properties of listed nav items*/
-  background-color: #333366;
+  /*background-color: #333366;*/
   display:flex;
   display:block;
   flex-direction: row;
@@ -33,7 +32,8 @@ body{
 }
 .nav ul li:hover{
   /*this rule explains about after pointed display*/
-  background-color:#2a5cf7;
+  text-shadow:  2px 2px 1px #333366;
+
 }
 .nav ul li a{
   /*these rules gives properties for links items on nav*/
@@ -41,7 +41,8 @@ body{
   text-decoration: none;
   text-align: center;
   justify-content:space-around;
-  color:white;
+  color: #333366 ;
+  font-family: 'Russo One', sans-serif;
   margin:5px 10px 5px 10px;
   font-size:1.5em;
 }
@@ -50,33 +51,19 @@ footer{
   /*this is style property for footer part*/
   margin-bottom: 10px ;
   padding:10px;
-
-
-}
-footer h3{
-  /*this explains about h3 footer text*/
-  text-decoration: underline;
-  text-shadow: 2px 2px 1px #333366;
-
+  
 }
 
-.footerbox {
+.footerbox{
   /*footerbox icons are given diffrent styles through this rule*/
-  padding: 10px;
-  text-align: left;
-  margin: auto;
-  display:block;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-
+  text-align: center;
 }
 
 .footerbox a{
   /*this is properties for link of those icons on footerbox*/
-  display: flex;
-  flex-direction: row;
-  padding-right: 10px;
+  padding-right:5px;
+  text-decoration:none;
+
 }
 
 .footerbox a img{
@@ -88,13 +75,21 @@ footer h3{
 .footerbox a img:hover{
   /*this properties are for after pointed effect on img of icons*/
   transform: scale(1.5,1.5);
-  opacity: .6
+  opacity: 0.6
 }
 footer p{
   /*these rules are for the paragraph of footer*/
   text-shadow: 2px 2px 1px #333366;
   padding: 2px;
 	text-align: center;
-	font-size: 130%;
+	font-size: 1.2em;
 	color: black;
+  font-family: 'Satisfy', cursive;
+}
+
+@media all and (max-width:1000px){
+  /*this is for making nav responsive on any media*/
+  .nav ul{
+    flex-direction: column;
+  }
 }
