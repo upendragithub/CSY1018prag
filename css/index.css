@@ -1,9 +1,8 @@
-
 .content{
-	/*this is the rule for whole content part*/
-	margin: 50px 0;
-}
+/*this is the rule for whole content part*/
 
+  margin: 50px 0;
+}
 .content h1{
 	/*this rule is for the h1 part of content */
   font-family: 'Sacramento', cursive;
